@@ -35,3 +35,6 @@ int main() {
 	// menunjukan kesebuah file
 	infile.open(NamaFile + ".txt", ios::in);
 
+	cout << endl << ">= Membuka dan membaca file " << endl;
+	// jika file ada maka
+	if (infile.is_open())
