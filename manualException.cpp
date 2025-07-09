@@ -16,7 +16,7 @@ int main()
     }
     catch (...)
     {
-        //jika selain interger maka block ini akan dieksekusi
+        //jika selain integer maka block ini akan dieksekusi
         cout << "Default Pengecualian dieksekusi" << endl;
     }
 
